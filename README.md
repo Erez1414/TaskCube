@@ -16,7 +16,9 @@ The TaskCube lights corresponds to the upwards face and allows us to know
 
 ## Usage
 Using the App we set the tasks and time for each task with a corresponding
- color.
+ color. \
+ The BlueTooth_AT_MODE.ino file is used to define the name of the Bluetooth module
+ Simply use the command AT+NAME=TaskCube
 
 ### Setup
 1. Print the 3D Cube, using the provided model JK.stl and XY type of 3D
