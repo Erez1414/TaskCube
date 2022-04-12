@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:textAlignment="center"
+    android:id="@+id/main_view">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_task_title"
+        android:textSize="30sp"
+        android:padding="20dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_stop_watch"
+        android:gravity="center_horizontal"
+        android:textSize="30dp"
+        android:padding="30dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/red"
+        android:onClick="onRed"
+        android:text="time is up"
+        android:scaleType="fitXY"
+        android:paddingBottom="30dp"
+        android:layout_marginTop="350dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="30dp"/>
+
+</LinearLayout>
