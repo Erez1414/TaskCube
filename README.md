@@ -12,7 +12,9 @@ The TaskCube lights corresponds to the upwards face and allows us to know
     switch task. \
     The TaskCube is accompanied by an Android App that allows us to set the
      name and time of the tasks with a corresponding color. 
-  
+
+## Video
+https://www.youtube.com/watch?v=dJXPWvCA7zg
 
 ## Usage
 Using the App we set the tasks and time for each task with a corresponding
